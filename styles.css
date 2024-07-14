@@ -1,0 +1,102 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header img.logo {
+    width: 50px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1em;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+#hero {
+    background: url('images/clinic.jpg') no-repeat center center;
+    background-size: cover;
+    color: white;
+    padding: 2em;
+    text-align: center;
+}
+
+.cta {
+    background-color: #FFA500;
+    color: white;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+#services, #about, #contact, #appointment {
+    padding: 2em;
+    text-align: center;
+}
+
+.team-profiles {
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+}
+
+.team-profiles .profile {
+    text-align: center;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em;
+}
+
+/* Responsive Styles */
+@media (max-width: 600px) {
+    nav ul li {
+        display: block;
+        margin: 1em 0;
+    }
+
+    #hero {
+        padding: 1em;
+    }
+
+    #services, #about, #contact, #appointment {
+        padding: 1em;
+    }
+
+    .team-profiles {
+        flex-direction: column;
+    }
+}
+
+
+.a{
+    margin: 3px;
+    padding: auto;
+    height: 350px;
+    width: 340px;
+    display: flex;
+}
